@@ -1,0 +1,50 @@
+.row{
+    display: flex;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+.container-fluid{
+    padding: 3% 20%;
+}
+.head-box{
+    background-color: #ff4c68;
+    display: flex;
+}
+h1{
+    font-size: 3.5rem;
+    line-height: 1.1;
+    font-weight: bolder;
+}
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.title-image{
+    background-color: aqua;
+    width: 90%;
+    transform: rotate(25deg);
+}
+@media only screen and (max-width: 1016px) {
+    
+.head-box{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.title-image{
+    width: 300px;
+    height: auto;
+}
+
+} 
+@media only screen and (max-width: 600px){
+.title-image{
+        width: 150px;
+        margin-top: 30px;
+    }
+h1{
+    font-size: 30px;
+    }
+
+}
