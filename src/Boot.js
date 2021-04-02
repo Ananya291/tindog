@@ -1,5 +1,6 @@
 import React from "react"
 import  "./Boot.css"
+import Tindog from "./Tindog";
 
 function Boot(){ 
 return(  
@@ -16,13 +17,13 @@ return(
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul className="navbar-nav navi">
             <li className="nav-item">
-                <a className="nav-link" href=" ">Home</a>
+                <a className="nav-link" href="https://tindog-25.web.app/">Home</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href=" ">Contact</a>
+                <a className="nav-link" href="#pricing">Pricing</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link " href=" ">About</a>
+                <a className="nav-link " href="#cta">Download</a>
             </li>
             
         </ul>
